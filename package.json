@@ -1,0 +1,32 @@
+{
+  "name": "cach",
+  "version": "1.0.0",
+  "description": "A simple program to restart your NodeJS app when it exits with an error.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arch-lord/cach.git"
+  },
+  "keywords": [
+    "cach",
+    "catch",
+    "restart",
+    "error",
+    "exit"
+  ],
+  "author": "Felix Mattick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arch-lord/cach/issues"
+  },
+  "homepage": "https://github.com/arch-lord/cach#readme",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
