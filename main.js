@@ -14,7 +14,7 @@ var cach = (command = "npm start", log = false, restarted = false) => {
   exec(command, function(error, stdout, stderr) {
     if (error) {
       if (cmdLine || log) {
-        console.log(chalk.yellow("Command `%s` failed with exit code $s."), error.cmd, error.code);
+        console.log(chalk.yellow("Command `%s` failed with exit code %s."), error.cmd, error.code);
         console.log(chalk.redBright(error.toString().trim()));
         console.log(chalk.cyan("Restarting..."));
         console.log();
