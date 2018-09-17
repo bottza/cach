@@ -7,12 +7,12 @@ var cach = (command = "npm start", log = false, restarted = false) => {
     command = "npm start";
   }
   if (!restarted && (cmdLine || log)) {
-    console.log(chalk.cyan("Running `${command}`..."));
+    console.log(chalk.cyan("Running `%s`..."), command);
   }
   exec(command, function(error, stdout, stderr) {
     if (error) {
       if (cmdLine || log) {
-        console.log(chalk.yellow("Command `${error.cmd}` failed with exit code ${error.code}."));
+        console.log(chalk.yellow("Command `%s` failed with exit code $s."), error.cmd, error.code);
         console.log(chalk.redBright(error.toString().trim()));
         console.log(chalk.cyan("Restarting..."));
         console.log();
@@ -20,7 +20,7 @@ var cach = (command = "npm start", log = false, restarted = false) => {
       cach(command, restarted = true);
     } else {
       if (cmdLine || log) {
-        console.log(chalk.green("Command `${command} exited cleanly."));
+        console.log(chalk.green("Command `%s` exited cleanly."), command);
         console.log(chalk.cyan("Exiting..."));
       }
       if (cmdLine) {
