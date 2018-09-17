@@ -11,14 +11,19 @@ var cach = command => {
       cach(command);
     } else {
       console.log(chalk.green("Command `${command} exited cleanly."));
-      console.log(chalk.aqua("Exiting..."));
+      console.log(chalk.cyan("Exiting..."));
       process.exit(0);
     }
   });
 };
 
 if (require.main === module) {
-  cach("npm start");
+  var args = process.argv.slice(2);
+  if (args.length == 0) {
+    cach("npm start");
+  } else {
+    cach(args.join(" "));
+  }
 }
 
 module.exports = cach;
