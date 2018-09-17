@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A simple program to restart your NodeJS app when it exits with an error.",
   "main": "main.js",
+  "bin": "./main.js",
   "scripts": {
     "start": "node main.js",
     "test": "ava"
