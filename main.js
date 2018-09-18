@@ -3,12 +3,12 @@
 var exec = require("child_process").exec;
 var chalk = require("chalk");
 
-var cach = (command = "npm start", log = false, restarted = false) => {
+var cach = (command = "npm start", log = false) => {
   var cmdLine = require.main === module;
   if (!command.trim()) {
     command = "npm start";
   }
-  if (!restarted && (cmdLine || log)) {
+  if (cmdLine || log) {
     console.log(chalk.cyan("Running `%s`..."), command);
   }
   exec(command, function(error, stdout, stderr) {
@@ -19,7 +19,7 @@ var cach = (command = "npm start", log = false, restarted = false) => {
         console.log(chalk.cyan("Restarting..."));
         console.log();
       }
-      cach(command, restarted = true);
+      cach(command);
     } else {
       if (cmdLine || log) {
         console.log(chalk.green("Command `%s` exited cleanly."), command);
