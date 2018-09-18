@@ -1,6 +1,6 @@
 {
   "name": "cach",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple program to restart your NodeJS app when it exits with an error.",
   "main": "main.js",
   "bin": "./main.js",
