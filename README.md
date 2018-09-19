@@ -3,7 +3,7 @@
 [![Depfu](https://img.shields.io/depfu/bottza/cach.svg?style=flat-square)](https://depfu.com/repos/bottza/cach) 
 [![npm](https://img.shields.io/npm/v/cach.svg?style=flat-square)](https://www.npmjs.com/package/cach)
 
-A simple program to restart your NodeJS app when it exits with an error.
+A simple program to restart your NodeJS app when it exits with an error. Useful for Discord bots.
 
 ## Installation
 
