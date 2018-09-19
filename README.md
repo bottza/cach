@@ -1,5 +1,6 @@
 # Cach
-[![CircleCI](https://img.shields.io/circleci/project/github/arch-lord/cach/master.svg?style=flat-square)](https://circleci.com/gh/arch-lord/cach)
+[![Discord](https://img.shields.io/discord/490867255144611850.svg?style=flat-square)](https://discord.io/bottza)
+[![Travis CI](https://img.shields.io/travis/com/bottza/cach/master.svg?style=flat-square)](https://travis-ci.com/bottza/cach)
 [![Depfu](https://img.shields.io/depfu/arch-lord/cach.svg?style=flat-square)](https://depfu.com/repos/arch-lord/cach) 
 [![npm](https://img.shields.io/npm/v/cach.svg?style=flat-square)](https://www.npmjs.com/package/cach)
 
@@ -46,7 +47,7 @@ cach("npm test", true);
 ## Testing
 
 ```
-$ git clone https://github.com/arch-lord/cach
+$ git clone https://github.com/bottza/cach
 Cloning into 'cach'...
 remote: Counting objects: 37, done.
 remote: Compressing objects: 100% (32/32), done.
