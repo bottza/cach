@@ -1,6 +1,6 @@
 # Cach
-[![CircleCI](https://img.shields.io/circleci/project/github/arch-lord/cach/master.svg?style=flat-square)](https://circleci.com/gh/arch-lord/cach)
-[![Depfu](https://img.shields.io/depfu/arch-lord/cach.svg?style=flat-square)](https://depfu.com/repos/arch-lord/cach) 
+[![CircleCI](https://img.shields.io/circleci/project/github/bottza/cach/master.svg?style=flat-square)](https://circleci.com/gh/bottza/cach)
+[![Depfu](https://img.shields.io/depfu/bottza/cach.svg?style=flat-square)](https://depfu.com/repos/bottza/cach) 
 [![npm](https://img.shields.io/npm/v/cach.svg?style=flat-square)](https://www.npmjs.com/package/cach)
 
 A simple program to restart your NodeJS app when it exits with an error.
@@ -46,7 +46,7 @@ cach("npm test", true);
 ## Testing
 
 ```
-$ git clone https://github.com/arch-lord/cach
+$ git clone https://github.com/bottza/cach
 Cloning into 'cach'...
 remote: Counting objects: 37, done.
 remote: Compressing objects: 100% (32/32), done.
