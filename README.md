@@ -1,3 +1,7 @@
+> 🚧 **This project is maintenance mode!** 🚧
+> 
+> I will be fixing and responding to pull requests and issues, but it is not in active development.
+
 # Cach
 [![Discord](https://img.shields.io/discord/490867255144611850.svg?style=flat-square)](https://discord.io/bottza)
 [![Travis CI](https://img.shields.io/travis/com/bottza/cach/master.svg?style=flat-square)](https://travis-ci.com/bottza/cach)
